@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+main {
+    border: red solid 1px;
+}
+
+
+#header{
+    /* border: orchid solid 5px; */
+}
+
+#header *{
+     /* border: palegreen solid 5px;  */
+    
+}
+#header .principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuerpo{
+    /* border: purple solid 2px; */
+}
+
+#cuerpo>* {
+    /* border: green solid 2px; */
+    
+}
+
+.dosColumnas{
+    display: flex;
+}
+
+.lateral{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lateral>* {
+    /* border: hotpink solid 2px; */
+}
+
+.principal{
+    flex: 4;
+}
+.latSection {
+    width: 100%;
+}
+
+
