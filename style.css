@@ -3,7 +3,7 @@ body{
     font-family: Georgie,Helvetica, sans-serif;
 }
 main {
-    /* border: red solid 1px; */
+     /* border: red solid 1px;  */
 }
 
 
@@ -28,7 +28,7 @@ main {
 
 #cuerpo>* {
     /* border: green solid 2px; */
-    
+    min-height: 80vh;
 }
 
 .dosColumnas{
@@ -86,4 +86,8 @@ img {
 .principal table td{
     line-height: 30px;
 
+}
+
+.hide {
+    display:none;
 }
